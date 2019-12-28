@@ -6,3 +6,23 @@
 
 > Create database Folder // this folder contains database Schema(Tables)
 > Create file users.js inside database folder //This contains data base schema
+
+
+MONGOOSE DOCUMENTATION
+
+https://mongoosejs.com/docs/
+
+
+JAVASCRIPT DOCUMENTATION
+
+https://javascript.info/
+
+
+JAVASCRIPT STYLING GUIDE
+
+https://google.github.io/styleguide/jsguide.html
+
+
+NODEJS BASIC REFERENCE GUIDE
+
+https://medium.com/quick-code/handling-authentication-and-authorization-with-node-7f9548fedde8
