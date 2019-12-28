@@ -111,7 +111,7 @@ app.put('/userdetailsupdate',async(req,res)=>{
 //writing a delete request to delete the user
 //here user id is passed as a header parameter from the user end
 app.delete('/deleteuser/:id',(req,res)=>{
-    //we use user id (i.e id) to find the user in database and delete the record from database 
+    //we use user id header parameter (i.e id) to find the user in database and delete the record from database 
     User_variable.findByIdAndDelete(req.params.id)
     .then(()=>{
         res.status(200).send({
